@@ -7,7 +7,7 @@ This project implements a smart fan using 2 PSoC's microcontrollers. The DC moto
 
 
 ## Hardware Components 
--2 PSoC5LP microcontollers 
+- 2 PSoC5LP microcontollers 
 - DS3231 RTC Module
 - DC Motor
 - Motor Driver (L298N)
