@@ -1,7 +1,7 @@
 #ifndef _DS3231_H
 #define _DS3231_H
    
-#define DS3231_SLAVE_ADDR       0x68    // 0b_110_1000 = 0x68 //Slave address
+#define DS3231_SLAVE_ADDR       0x68    
 
 #define DS3231_REG_SECONDS      0x00
 #define DS3231_REG_MINUTES      0x01
@@ -17,8 +17,8 @@
 #define DS3231_BIT_24HRFORMAT   0x00
 #define DS3231_BIT_AM           0x00
 #define DS3231_BIT_PM           0x20
-#define DS3231_BIT_CTRL_EOSC    0x80    // 0x0E bit7
-#define DS3231_BIT_STAT_OSF     0x80    // 0x0F bit7
+#define DS3231_BIT_CTRL_EOSC    0x80    
+#define DS3231_BIT_STAT_OSF     0x80    
 
 #define DS3231_DAY_SUN          0x01
 #define DS3231_DAY_MON          0x02
