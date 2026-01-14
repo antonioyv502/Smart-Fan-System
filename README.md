@@ -16,4 +16,4 @@ This project implements a smart fan using 2 PSoC's microcontrollers. The DC moto
 - Breadboard and Jumper Wires
 
 
-##
+## Top Design PSoC 1
