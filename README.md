@@ -21,4 +21,4 @@ This project implements a smart fan using 2 PSoC's microcontrollers. The DC moto
 
 
 ##Top Design PSoC 2
-![Top Deisgn PSoC 1](Images/Top_Design1.png) 
+![Top Deisgn PSoC 1](Images/Top_Design2.png) 
