@@ -9,15 +9,15 @@ The system is divided into two independent functional units:
 
 1. Sensor Unit (PSoC #1)
    
-Interfaces with a Real-Time Clock (RTC) module to read the current time.
-Implements time-based control logic to determine the appropriate fan speed.
-Sends RTC-based motor control commands to the motor control unit via UART.
+- Interfaces with a Real-Time Clock (RTC) module to read the current time.
+- Implements time-based control logic to determine the appropriate fan speed.
+- Sends RTC-based motor control commands to the motor control unit via UART.
 
 2.  Motor Control Unit (PSoC #2)
 
-Receives RTC-based control commands over UART.
-Controls the DC motor speed using PWM, based only on commands received from the sensor unit.
-Controls a servo motor independently, providing continuous left-to-right sweeping motion.
+- Receives RTC-based control commands over UART.
+- Controls the DC motor speed using PWM, based only on commands received from the sensor unit.
+- Controls a servo motor independently, providing continuous left-to-right sweeping motion.
 
 
 ## Hardware Components 
