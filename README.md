@@ -9,7 +9,7 @@ The system is divided into two independent functional units:
 
 1. Sensor Unit (PSoC #1)
    
-- Interfaces with a Real-Time Clock (RTC) module to read the current time.
+- Interfaces with a DS3231 RTC module to read the current time.
 - Implements time-based control logic to determine the appropriate fan speed.
 - Sends RTC-based motor control commands to the motor control unit via UART.
 
